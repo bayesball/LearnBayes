@@ -1,0 +1,70 @@
+<html><head><title>Selection of Beta Prior Given Knowledge of Two Quantiles</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" type="text/css" href="Rchm.css">
+</head>
+<body>
+
+<table width="100%"><tr><td>beta.select(LearnBayes)</td><td align="right">R Documentation</td></tr></table><object type="application/x-oleobject" classid="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+<param name="keyword" value="R:   beta.select">
+<param name="keyword" value=" Selection of Beta Prior Given Knowledge of Two Quantiles">
+</object>
+
+
+<h2>Selection of Beta Prior Given Knowledge of Two Quantiles</h2>
+
+
+<h3>Description</h3>
+
+<p>
+Finds the shape parameters of a beta density that matches knowledge of
+two quantiles of the distribution.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+beta.select(quantile1, quantile2)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>quantile1</code></td>
+<td>
+list with components p, the value of the first probability,
+and x, the value of the first quantile</td></tr>
+<tr valign="top"><td><code>quantile2</code></td>
+<td>
+list with components p, the value of the second probability,
+and x, the value of the second quantile</td></tr>
+</table>
+
+<h3>Value</h3>
+
+<p>
+vector of shape parameters of the matching beta distribution</p>
+
+<h3>Author(s)</h3>
+
+<p>
+Jim Albert
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+# person believes the median of the prior is 0.25 
+# and the 90th percentile of the prior is 0.45
+quantile1=list(p=.5,x=0.25)
+quantile2=list(p=.9,x=0.45)
+beta.select(quantile1,quantile2)
+</pre>
+
+
+
+<hr><div align="center">[Package <em>LearnBayes</em> version 2.0 <a href="00Index.html">Index]</a></div>
+
+</body></html>

@@ -1,0 +1,54 @@
+---
+title: "Book Sales"
+output: html_document
+---
+
+I recently noticed a feature of amazon.com.  There is a author central location where I can see weekly sales of my books on this site.  I recently wrote a baseball with R book last November and so I'll explore the weekly sales.
+
+Here are some questions to motivate my analysis:
+
+* What is a typical number of books in a week on Amazon?
+* I'm interested in extremes -- what was the best-selling week and how many books were sold?
+
+I enter the sales numbers directly in R.  The first number (29) represents the number of books sold the first week when the book was available, the second number is the number of books sold the next week, etc.
+
+```{r}
+sales <- c(29, 64, 47, 36, 36, 42, 41, 3,
+           37, 24, 22, 23, 27, 25, 23, 31,
+           45, 25, 26, 19, 21, 21, 20, 14,
+           11, 12, 21, 16, 16, 2, 3, 9, 
+           17, 18, 14, 18, 13, 12, 16, 7,
+           12, 15)
+```
+
+I start with constructing a stemplot using the default break and number of leaves:
+
+```{r}
+library(LearnEDA)
+aplpack::stem.leaf(sales)
+```
+
+From this graph, I have learned a lot about the distribution of weekly sales:
+
+* The distribution is slightly right skewed -- this is typical for count data such as the number of books sold.
+* A typical number of books sold is about 20.
+* But there is substantial variation in the books sold -- several weeks had only a couple of books sold, and there was an active week with 64 books sold
+
+Letter values are helpful to get more detailed info about this distribution.
+
+```{r}
+lval(sales)
+```
+From this table, I learn ...
+
+* The median number of sales is 21.5.
+* The middle half the sales numbers fall between 14 and 27.
+* Notice that the mids are increasing -- this confirms the right-skewness of the batch of counts.
+
+A graphical display of the 5-number display (lo, lower quartile, median, upper quartile, hi) is a boxplot.
+
+```{r}
+boxplot(sales, horizontal=TRUE, xlab="Weekly Sales")
+```
+
+This graph shows that we have two outliers in my batch (these are values outside of the inner fences).

@@ -1,0 +1,82 @@
+<html><head><title>Bayesian test of a proportion</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" type="text/css" href="Rchm.css">
+</head>
+<body>
+
+<table width="100%"><tr><td>pbetat(LearnBayes)</td><td align="right">R Documentation</td></tr></table><object type="application/x-oleobject" classid="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+<param name="keyword" value="R:   pbetat">
+<param name="keyword" value=" Bayesian test of a proportion">
+</object>
+
+
+<h2>Bayesian test of a proportion</h2>
+
+
+<h3>Description</h3>
+
+<p>
+Bayesian test that a proportion is equal to a specified
+value using a beta prior
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+pbetat(p0,prob,ab,data)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>p0</code></td>
+<td>
+value of the proportion to be tested </td></tr>
+<tr valign="top"><td><code>prob</code></td>
+<td>
+prior probability of the hypothesis</td></tr>
+<tr valign="top"><td><code>ab</code></td>
+<td>
+vector of parameter values of the beta prior under the alternative hypothesis</td></tr>
+<tr valign="top"><td><code>data</code></td>
+<td>
+vector containing the number of successes and number of failures</td></tr>
+</table>
+
+<h3>Value</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>bf</code></td>
+<td>
+the Bayes factor
+in support of the null hypothesis</td></tr>
+<tr valign="top"><td><code>post</code></td>
+<td>
+the posterior probability
+of the null hypothesis</td></tr>
+</table>
+
+<h3>Author(s)</h3>
+
+<p>
+Jim Albert
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+p0=.5
+prob=.5
+ab=c(10,10)
+data=c(5,15)
+pbetat(p0,prob,ab,data)
+</pre>
+
+
+
+<hr><div align="center">[Package <em>LearnBayes</em> version 2.0 <a href="00Index.html">Index]</a></div>
+
+</body></html>

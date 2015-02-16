@@ -1,0 +1,76 @@
+<html><head><title>Highest probability interval for a discrete distribution</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" type="text/css" href="Rchm.css">
+</head>
+<body>
+
+<table width="100%"><tr><td>discint(LearnBayes)</td><td align="right">R Documentation</td></tr></table><object type="application/x-oleobject" classid="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+<param name="keyword" value="R:   discint">
+<param name="keyword" value=" Highest probability interval for a discrete distribution">
+</object>
+
+
+<h2>Highest probability interval for a discrete distribution</h2>
+
+
+<h3>Description</h3>
+
+<p>
+Computes a highest probability interval for a discrete probability
+distribution
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+discint(dist, prob)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>dist</code></td>
+<td>
+probability distribution written as a matrix where
+the first column contain the values and the second column 
+the probabilities</td></tr>
+<tr valign="top"><td><code>prob</code></td>
+<td>
+probability content of interest</td></tr>
+</table>
+
+<h3>Value</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>prob</code></td>
+<td>
+exact probability content of interval</td></tr>
+<tr valign="top"><td><code>set</code></td>
+<td>
+set of values of the probability interval</td></tr>
+</table>
+
+<h3>Author(s)</h3>
+
+<p>
+Jim Albert
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+x=0:10
+probs=dbinom(x,size=10,prob=.3)
+dist=cbind(x,probs)
+pcontent=.8
+discint(dist,pcontent)
+</pre>
+
+
+
+<hr><div align="center">[Package <em>LearnBayes</em> version 2.0 <a href="00Index.html">Index]</a></div>
+
+</body></html>

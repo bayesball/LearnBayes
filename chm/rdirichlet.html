@@ -1,0 +1,65 @@
+<html><head><title>Random draws from a Dirichlet distribution</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" type="text/css" href="Rchm.css">
+</head>
+<body>
+
+<table width="100%"><tr><td>rdirichlet(LearnBayes)</td><td align="right">R Documentation</td></tr></table><object type="application/x-oleobject" classid="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+<param name="keyword" value="R:   rdirichlet">
+<param name="keyword" value=" Random draws from a Dirichlet distribution">
+</object>
+
+
+<h2>Random draws from a Dirichlet distribution</h2>
+
+
+<h3>Description</h3>
+
+<p>
+Simulates a sample from a Dirichlet distribution
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+rdirichlet(n,par)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>n</code></td>
+<td>
+number of simulations required</td></tr>
+<tr valign="top"><td><code>par</code></td>
+<td>
+vector of parameters of the Dirichlet distribution</td></tr>
+</table>
+
+<h3>Value</h3>
+
+<p>
+matrix of simulated draws where each row corresponds to a single draw</p>
+
+<h3>Author(s)</h3>
+
+<p>
+Jim Albert
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+par=c(2,5,4,10)
+n=10
+rdirichlet(n,par)
+</pre>
+
+
+
+<hr><div align="center">[Package <em>LearnBayes</em> version 2.0 <a href="00Index.html">Index]</a></div>
+
+</body></html>

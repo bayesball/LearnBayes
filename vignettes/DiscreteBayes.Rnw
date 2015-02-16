@@ -1,0 +1,101 @@
+\documentclass{article}
+
+%\VignetteIndexEntry{Introduction to Bayes using Discrete Priors}
+%\VignetteDepends{LearnBayes}
+
+\begin{document}
+\SweaveOpts{concordance=TRUE}
+
+\title{Introduction to Bayes using Discrete Priors}
+\author{Jim Albert}
+
+\maketitle
+
+\section*{Learning About a Proportion}
+
+\subsection*{A Discrete Prior}
+
+Consider a population of ``successes" and ``failures" where the proportion of successes is $p$.
+Suppose  $p$ takes on the discrete set of values 0, .01, ..., .99, 1 and one assigns a uniform prior on these values.  We enter the values of $p$ and the associated probabilities into the vectors {\tt p} and {\tt prior}, respectively. 
+
+<<>>=
+p <- seq(0, 1, by = 0.01)
+prior <- 1 / 101 + 0 * p
+@
+<<fig=TRUE,echo=TRUE>>=
+plot(p, prior, 
+     type="h",
+     main="Prior Distribution")
+@
+
+\subsection*{Posterior Distribution}
+
+Suppose one takes a random sample from the population without replacement and observes 20 successes and 12 failiures.  The function {\tt pdisc} in the {\tt LearnBayes} package computes the associated posterior probabilities for $p$.  The inputs to {\tt pdisc} are the prior (vector of values of $p$ and vector of prior probabilities) and a vector containing the number of successes and failures.
+
+<<>>=
+library(LearnBayes)
+post <- pdisc(p, prior, c(20, 12))
+@
+<<fig=TRUE,echo=TRUE>>=
+plot(p, post, 
+     type="h",
+     main="Posterior Distribution")
+@
+
+A highest probability interval for a discrete distribution is obtained using the {\tt discint} function.  This function has two inputs:  the probability distribution matrix where the first column contains the values and the second column contains the probabilities, and the desired probability content.  To illustrate, we compute a 90 percent probability interval for $p$ from the posterior distribution.
+
+<<>>=
+discint(cbind(p, post), 0.90)
+@
+The probability that $p$ falls in the interval (0.49, 0.75)
+is approximately 0.90.
+
+\subsection*{Prediction}
+
+Suppose a new sample of size 20 is to be taken and we're interested in predicting the number of successes.  The current opinion about the proportion is reflected in the posterior distribution stored in the vectors {\tt p} and {\tt post}.  We store the possible number of successes in the future sample in {\tt s} and the function {\tt pdiscp} computes the corresponding predictive probabilities.
+
+<<>>=
+n <- 20
+s <- 0:20
+pred.probs <- pdiscp(p, post, n, s)
+@
+
+<<fig=TRUE,echo=TRUE>>=
+plot(s, pred.probs, 
+     type="h",
+     main="Predictive Distribution")
+@
+
+\section*{Learning About a Poisson Mean}
+
+Discrete models can be used for other sampling distributions using the {\tt discrete.bayes} function.  To illustrate, suppose the number of accidents in a particular year is Poisson with mean $\lambda$.  A priori one believes that $\lambda$ is equally likely to take on the values 20, 21, ..., 30.  We put the prior probabilities 1/11, ..., 1/11 in the vector {\tt prior} and use the {\tt names} function to name the components of this vector with the values of $\lambda$.
+<<>>=
+prior <- rep(1/11, 11)
+names(prior) <- 20:30
+@
+
+One observes the number of accidents for ten weeks -- these values are placed in the vector {\tt y}:
+<<>>=
+y <- c(24, 25, 31, 31, 22, 21, 26, 20, 16, 22)
+@
+
+To compute the posterior probabilities, we use the function {\tt discrete.bayes}; the inputs are the Poisson sampling density {\tt dpois}, the vector of prior probabilities {\tt prior}, and the vector of observations {\tt y}.
+<<>>=
+post <- discrete.bayes(dpois, prior, y)
+@
+
+One can display the posterior probabilities by use of the {\tt print} method, one displays the posterior probabilites by the {\tt plot} method, and one summarizes the posterior distribution by the {\tt summary} method.
+
+<<>>=
+print(post)
+@
+
+<<fig=TRUE,echo=TRUE>>=
+plot(post)
+@
+
+<<>>=
+summary(post)
+@
+
+\end{document}

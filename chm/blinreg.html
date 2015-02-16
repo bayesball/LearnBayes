@@ -1,0 +1,81 @@
+<html><head><title>Simulation from Bayesian linear regression model</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" type="text/css" href="Rchm.css">
+</head>
+<body>
+
+<table width="100%"><tr><td>blinreg(LearnBayes)</td><td align="right">R Documentation</td></tr></table><object type="application/x-oleobject" classid="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+<param name="keyword" value="R:   blinreg">
+<param name="keyword" value=" Simulation from Bayesian linear regression model">
+</object>
+
+
+<h2>Simulation from Bayesian linear regression model</h2>
+
+
+<h3>Description</h3>
+
+<p>
+Gives a simulated sample from the joint posterior distribution of the regression
+vector and the error standard deviation for a linear regression model with a 
+noninformative or g prior.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+blinreg(y,X,m,prior=NULL)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>y</code></td>
+<td>
+vector of responses</td></tr>
+<tr valign="top"><td><code>X</code></td>
+<td>
+design matrix</td></tr>
+<tr valign="top"><td><code>m</code></td>
+<td>
+number of simulations desired</td></tr>
+<tr valign="top"><td><code>prior</code></td>
+<td>
+list with components c0 and beta0 of Zellner's g prior</td></tr>
+</table>
+
+<h3>Value</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>beta</code></td>
+<td>
+matrix of simulated draws of beta where each row corresponds to one draw</td></tr>
+<tr valign="top"><td><code>sigma</code></td>
+<td>
+vector of simulated draws of the error standard deviation</td></tr>
+</table>
+
+<h3>Author(s)</h3>
+
+<p>
+Jim Albert
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+chirps=c(20,16.0,19.8,18.4,17.1,15.5,14.7,17.1,15.4,16.2,15,17.2,16,17,14.1)
+temp=c(88.6,71.6,93.3,84.3,80.6,75.2,69.7,82,69.4,83.3,78.6,82.6,80.6,83.5,76.3)
+X=cbind(1,chirps)
+m=1000
+s=blinreg(temp,X,m)
+</pre>
+
+
+
+<hr><div align="center">[Package <em>LearnBayes</em> version 2.0 <a href="00Index.html">Index]</a></div>
+
+</body></html>

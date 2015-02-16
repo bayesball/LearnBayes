@@ -1,0 +1,731 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HEAD></HEAD><HTML><BODY>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Package LearnBayes:  Contents">
+<param name="Local" value="00Index.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Package LearnBayes:  R objects">
+</OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="achievement">
+<param name="Local" value="achievement.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="baseball.1964">
+<param name="Local" value="baseball.1964.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="bayes.influence">
+<param name="Local" value="bayes.influence.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="bayes.model.selection">
+<param name="Local" value="bayes.model.selection.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="bayes.probit">
+<param name="Local" value="bayes.probit.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="bayesresiduals">
+<param name="Local" value="bayesresiduals.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="bermuda.grass">
+<param name="Local" value="bermuda.grass.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="beta.select">
+<param name="Local" value="beta.select.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="betabinexch">
+<param name="Local" value="betabinexch.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="betabinexch0">
+<param name="Local" value="betabinexch0.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="bfexch">
+<param name="Local" value="bfexch.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="bfindep">
+<param name="Local" value="bfindep.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="binomial.beta.mix">
+<param name="Local" value="binomial.beta.mix.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="birdextinct">
+<param name="Local" value="birdextinct.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="birthweight">
+<param name="Local" value="birthweight.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="blinreg">
+<param name="Local" value="blinreg.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="blinregexpected">
+<param name="Local" value="blinregexpected.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="blinregpred">
+<param name="Local" value="blinregpred.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="bprobit.probs">
+<param name="Local" value="bprobit.probs.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="bradley.terry.post">
+<param name="Local" value="bradley.terry.post.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="breastcancer">
+<param name="Local" value="breastcancer.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="calculus.grades">
+<param name="Local" value="calculus.grades.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="cancermortality">
+<param name="Local" value="cancermortality.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="careertraj.setup">
+<param name="Local" value="careertraj.setup.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="cauchyerrorpost">
+<param name="Local" value="cauchyerrorpost.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="chemotherapy">
+<param name="Local" value="chemotherapy.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="ctable">
+<param name="Local" value="ctable.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="darwin">
+<param name="Local" value="darwin.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="discint">
+<param name="Local" value="discint.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="dmnorm">
+<param name="Local" value="dmnorm.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="dmt">
+<param name="Local" value="dmt.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="donner">
+<param name="Local" value="donner.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="election">
+<param name="Local" value="election.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="election.2008">
+<param name="Local" value="election.2008.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="footballscores">
+<param name="Local" value="footballscores.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="gibbs">
+<param name="Local" value="gibbs.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="groupeddatapost">
+<param name="Local" value="groupeddatapost.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="hearttransplants">
+<param name="Local" value="hearttransplants.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="hiergibbs">
+<param name="Local" value="hiergibbs.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="histprior">
+<param name="Local" value="histprior.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="howardprior">
+<param name="Local" value="howardprior.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="impsampling">
+<param name="Local" value="impsampling.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="indepmetrop">
+<param name="Local" value="indepmetrop.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="iowagpa">
+<param name="Local" value="iowagpa.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="jeter2004">
+<param name="Local" value="jeter2004.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="laplace">
+<param name="Local" value="laplace.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="lbinorm">
+<param name="Local" value="lbinorm.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="logctablepost">
+<param name="Local" value="logctablepost.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="logisticpost">
+<param name="Local" value="logisticpost.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="logpoissgamma">
+<param name="Local" value="logpoissgamma.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="logpoissnormal">
+<param name="Local" value="logpoissnormal.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="marathontimes">
+<param name="Local" value="marathontimes.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="mnormt.onesided">
+<param name="Local" value="mnormt.onesided.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="mnormt.twosided">
+<param name="Local" value="mnormt.twosided.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="mycontour">
+<param name="Local" value="mycontour.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="normal.normal.mix">
+<param name="Local" value="normal.normal.mix.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="normal.select">
+<param name="Local" value="normal.select.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="normchi2post">
+<param name="Local" value="normchi2post.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="normpostpred">
+<param name="Local" value="normpostpred.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="normpostsim">
+<param name="Local" value="normpostsim.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="ordergibbs">
+<param name="Local" value="ordergibbs.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="pbetap">
+<param name="Local" value="pbetap.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="pbetat">
+<param name="Local" value="pbetat.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="pdisc">
+<param name="Local" value="pdisc.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="pdiscp">
+<param name="Local" value="pdiscp.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="poissgamexch">
+<param name="Local" value="poissgamexch.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="poisson.gamma.mix">
+<param name="Local" value="poisson.gamma.mix.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="predplot">
+<param name="Local" value="predplot.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="puffin">
+<param name="Local" value="puffin.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="rdirichlet">
+<param name="Local" value="rdirichlet.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="reg.gprior.post">
+<param name="Local" value="reg.gprior.post.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="regroup">
+<param name="Local" value="regroup.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="rejectsampling">
+<param name="Local" value="rejectsampling.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="rigamma">
+<param name="Local" value="rigamma.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="rmnorm">
+<param name="Local" value="rmnorm.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="rmt">
+<param name="Local" value="rmt.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="robustt">
+<param name="Local" value="robustt.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="rtruncated">
+<param name="Local" value="rtruncated.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="rwmetrop">
+<param name="Local" value="rwmetrop.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="schmidt">
+<param name="Local" value="schmidt.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="simcontour">
+<param name="Local" value="simcontour.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="sir">
+<param name="Local" value="sir.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="sluggerdata">
+<param name="Local" value="sluggerdata.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="soccergoals">
+<param name="Local" value="soccergoals.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="stanfordheart">
+<param name="Local" value="stanfordheart.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="strikeout">
+<param name="Local" value="strikeout.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="studentdata">
+<param name="Local" value="studentdata.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="transplantpost">
+<param name="Local" value="transplantpost.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="triplot">
+<param name="Local" value="triplot.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="weibullregpost">
+<param name="Local" value="weibullregpost.html">
+</OBJECT>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Package LearnBayes:  Titles">
+</OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Admissions data for an university">
+<param name="Local" value="iowagpa.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Baseball strikeout data">
+<param name="Local" value="strikeout.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Batting data for Mike Schmidt">
+<param name="Local" value="schmidt.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Bayes factor against independence assuming alternatives close to independence">
+<param name="Local" value="bfindep.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Bayes factor against independence using uniform priors">
+<param name="Local" value="ctable.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Bayesian regression model selection using G priors">
+<param name="Local" value="bayes.model.selection.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Bayesian test of a proportion">
+<param name="Local" value="pbetat.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Bayesian test of a two-sided hypothesis about a normal mean">
+<param name="Local" value="mnormt.twosided.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Bayesian test of one-sided hypothesis about a normal mean">
+<param name="Local" value="mnormt.onesided.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Bermuda grass experiment data">
+<param name="Local" value="bermuda.grass.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Bird measurements from British islands">
+<param name="Local" value="puffin.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Birthweight regression study">
+<param name="Local" value="birthweight.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Calculus grades dataset">
+<param name="Local" value="calculus.grades.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Cancer mortality data">
+<param name="Local" value="cancermortality.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Chemotherapy treatment effects on ovarian cancer">
+<param name="Local" value="chemotherapy.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Collapses a matrix by summing over rows">
+<param name="Local" value="regroup.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Computation of posterior residual outlying probabilities for a linear regression model">
+<param name="Local" value="bayesresiduals.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Computes the log posterior of a normal regression model with a g prior.">
+<param name="Local" value="reg.gprior.post.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Computes the posterior for binomial sampling and a mixture of betas prior">
+<param name="Local" value="binomial.beta.mix.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Computes the posterior for normal sampling and a mixture of normals prior">
+<param name="Local" value="normal.normal.mix.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Computes the posterior for Poisson sampling and a mixture of gammas prior">
+<param name="Local" value="poisson.gamma.mix.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Contour plot of a bivariate density function">
+<param name="Local" value="mycontour.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Darwin's data on plants">
+<param name="Local" value="darwin.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Data from Stanford Heart Transplanation Program">
+<param name="Local" value="stanfordheart.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Density function of a histogram distribution">
+<param name="Local" value="histprior.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Donner survival study">
+<param name="Local" value="donner.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Florida election data">
+<param name="Local" value="election.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Game outcomes and point spreads for American football">
+<param name="Local" value="footballscores.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Gibbs sampling for a hierarchical regression model">
+<param name="Local" value="ordergibbs.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Gibbs sampling for a robust regression model">
+<param name="Local" value="robustt.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Goals scored by professional soccer team">
+<param name="Local" value="soccergoals.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Heart transplant mortality data">
+<param name="Local" value="hearttransplants.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Highest probability interval for a discrete distribution">
+<param name="Local" value="discint.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Hitting data for Derek Jeter">
+<param name="Local" value="jeter2004.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Hitting statistics for ten great baseball players">
+<param name="Local" value="sluggerdata.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Importance sampling using a t proposal density">
+<param name="Local" value="impsampling.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Independence Metropolis independence chain of a posterior distribution">
+<param name="Local" value="indepmetrop.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Log  posterior with Poisson sampling and normal prior">
+<param name="Local" value="logpoissnormal.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Log posterior density for mean and variance for normal sampling">
+<param name="Local" value="normchi2post.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Log posterior for a binary response model with a logistic link and a uniform prior">
+<param name="Local" value="logisticpost.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Log posterior of a Bradley Terry random effects model">
+<param name="Local" value="bradley.terry.post.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Log posterior of a Pareto model for survival data">
+<param name="Local" value="transplantpost.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Log posterior of a Weibull proportional odds model for survival data">
+<param name="Local" value="weibullregpost.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Log posterior of difference and sum of logits in a 2x2 table">
+<param name="Local" value="logctablepost.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Log posterior of logit mean and log precision for Binomial/beta exchangeable model">
+<param name="Local" value="betabinexch.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Log posterior of mean and precision for Binomial/beta exchangeable model">
+<param name="Local" value="betabinexch0.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Log posterior of median and log scale parameters for Cauchy sampling">
+<param name="Local" value="cauchyerrorpost.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Log posterior of normal parameters when data is in grouped form">
+<param name="Local" value="groupeddatapost.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Log posterior of Poisson/gamma exchangeable model">
+<param name="Local" value="poissgamexch.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Log posterior with Poisson sampling and gamma prior">
+<param name="Local" value="logpoissgamma.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Logarithm of bivariate normal density">
+<param name="Local" value="lbinorm.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Logarithm of Howard's dependent prior for two proportions">
+<param name="Local" value="howardprior.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Logarithm of integral of Bayes factor for testing homogeneity of proportions">
+<param name="Local" value="bfexch.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Marathon running times">
+<param name="Local" value="marathontimes.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Metropolis within Gibbs sampling algorithm of a posterior distribution">
+<param name="Local" value="gibbs.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Observation sensitivity analysis in beta-binomial model">
+<param name="Local" value="bayes.influence.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Plot of predictive distribution for binomial sampling with a beta prior">
+<param name="Local" value="predplot.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Plot of prior, likelihood and posterior for a proportion">
+<param name="Local" value="triplot.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Poll data from 2008 U.S. Presidential Election">
+<param name="Local" value="election.2008.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Posterior distribution for a proportion with discrete priors">
+<param name="Local" value="pdisc.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Posterior predictive simulation from Bayesian normal sampling model">
+<param name="Local" value="normpostpred.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Predictive distribution for a binomial sample with a beta prior">
+<param name="Local" value="pbetap.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Predictive distribution for a binomial sample with a discrete prior">
+<param name="Local" value="pdiscp.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Probability density function for multivariate t">
+<param name="Local" value="dmt.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Random draws from a Dirichlet distribution">
+<param name="Local" value="rdirichlet.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Random number generation for inverse gamma distribution">
+<param name="Local" value="rigamma.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Random number generation for multivariate normal">
+<param name="Local" value="rmnorm.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Random number generation for multivariate t">
+<param name="Local" value="rmt.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Random walk Metropolis algorithm of a posterior distribution">
+<param name="Local" value="rwmetrop.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Rejecting sampling using a t proposal density">
+<param name="Local" value="rejectsampling.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Sampling importance resampling">
+<param name="Local" value="sir.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="School achievement data">
+<param name="Local" value="achievement.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Selection of Beta Prior Given Knowledge of Two Quantiles">
+<param name="Local" value="beta.select.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Selection of Normal Prior Given Knowledge of Two Quantiles">
+<param name="Local" value="normal.select.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Setup for Career Trajectory Application">
+<param name="Local" value="careertraj.setup.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Simulated draws from a bivariate density function on a grid">
+<param name="Local" value="simcontour.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Simulates fitted probabilities for a probit regression model">
+<param name="Local" value="bprobit.probs.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Simulates from a probit binary response regression model using data augmentation and Gibbs sampling">
+<param name="Local" value="bayes.probit.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Simulates from a truncated probability distribution">
+<param name="Local" value="rtruncated.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Simulates values of expected response for linear regression model">
+<param name="Local" value="blinregexpected.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Simulates values of predicted response for linear regression model">
+<param name="Local" value="blinregpred.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Simulation from Bayesian linear regression model">
+<param name="Local" value="blinreg.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Simulation from Bayesian normal sampling model">
+<param name="Local" value="normpostsim.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Student dataset">
+<param name="Local" value="studentdata.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Summarization of a posterior density by the Laplace method">
+<param name="Local" value="laplace.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Survival experience of women with breast cancer under treatment">
+<param name="Local" value="breastcancer.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Team records in the 1964 National League baseball season">
+<param name="Local" value="baseball.1964.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="The probability density function for the multivariate normal (Gaussian) probability distribution ">
+<param name="Local" value="dmnorm.html">
+</OBJECT>
+</UL>
+</UL>
+</BODY></HTML>

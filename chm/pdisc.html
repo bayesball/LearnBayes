@@ -1,0 +1,71 @@
+<html><head><title>Posterior distribution for a proportion with discrete priors</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" type="text/css" href="Rchm.css">
+</head>
+<body>
+
+<table width="100%"><tr><td>pdisc(LearnBayes)</td><td align="right">R Documentation</td></tr></table><object type="application/x-oleobject" classid="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+<param name="keyword" value="R:   pdisc">
+<param name="keyword" value=" Posterior distribution for a proportion with discrete priors">
+</object>
+
+
+<h2>Posterior distribution for a proportion with discrete priors</h2>
+
+
+<h3>Description</h3>
+
+<p>
+Computes the posterior distribution for a proportion for a discrete prior
+distribution.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+pdisc(p, prior, data)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>p</code></td>
+<td>
+vector of proportion values</td></tr>
+<tr valign="top"><td><code>prior</code></td>
+<td>
+vector of prior probabilities</td></tr>
+<tr valign="top"><td><code>data</code></td>
+<td>
+vector consisting of number of successes and number of
+failures</td></tr>
+</table>
+
+<h3>Value</h3>
+
+<p>
+vector of posterior probabilities</p>
+
+<h3>Author(s)</h3>
+
+<p>
+Jim Albert
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+p=c(.2,.25,.3,.35)
+prior=c(.25,.25,.25,.25)
+data=c(5,10)
+pdisc(p,prior,data)
+</pre>
+
+
+
+<hr><div align="center">[Package <em>LearnBayes</em> version 2.0 <a href="00Index.html">Index]</a></div>
+
+</body></html>

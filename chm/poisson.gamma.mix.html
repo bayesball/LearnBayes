@@ -1,0 +1,78 @@
+<html><head><title>Computes the posterior for Poisson sampling and a mixture of gammas prior</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" type="text/css" href="Rchm.css">
+</head>
+<body>
+
+<table width="100%"><tr><td>poisson.gamma.mix(LearnBayes)</td><td align="right">R Documentation</td></tr></table><object type="application/x-oleobject" classid="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+<param name="keyword" value="R:   poisson.gamma.mix">
+<param name="keyword" value=" Computes the posterior for Poisson sampling and a mixture of gammas prior">
+</object>
+
+
+<h2>Computes the posterior for Poisson sampling and a mixture of gammas prior</h2>
+
+
+<h3>Description</h3>
+
+<p>
+Computes the parameters and mixing probabilities for a Poisson sampling problem
+where the prior is a discrete mixture of gamma densities.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+poisson.gamma.mix(probs,gammapar,data)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>probs</code></td>
+<td>
+vector of probabilities of the gamma components of the prior</td></tr>
+<tr valign="top"><td><code>gammapar</code></td>
+<td>
+matrix where each row contains the shape and rate parameters for a gamma component of the prior</td></tr>
+<tr valign="top"><td><code>data</code></td>
+<td>
+list with components y, vector of counts, and t, vector of time intervals</td></tr>
+</table>
+
+<h3>Value</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>probs</code></td>
+<td>
+vector of  probabilities of the gamma components of the posterior</td></tr>
+<tr valign="top"><td><code>gammapar</code></td>
+<td>
+matrix where each row contains the shape and rate parameters for a gamma component of the posterior</td></tr>
+</table>
+
+<h3>Author(s)</h3>
+
+<p>
+Jim Albert
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+probs=c(.5, .5)
+gamma.par1=c(1,1)
+gamma.par2=c(10,2)
+gammapar=rbind(gamma.par1,gamma.par2)
+y=c(1,3,2,4,10); t=c(1,1,1,1,1)
+data=list(y=y,t=t)
+poisson.gamma.mix(probs,gammapar,data)</pre>
+
+
+
+<hr><div align="center">[Package <em>LearnBayes</em> version 2.0 <a href="00Index.html">Index]</a></div>
+
+</body></html>

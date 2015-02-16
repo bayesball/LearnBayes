@@ -1,0 +1,66 @@
+<html><head><title>Bayes factor against independence using uniform priors</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" type="text/css" href="Rchm.css">
+</head>
+<body>
+
+<table width="100%"><tr><td>ctable(LearnBayes)</td><td align="right">R Documentation</td></tr></table><object type="application/x-oleobject" classid="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+<param name="keyword" value="R:   ctable">
+<param name="keyword" value=" Bayes factor against independence using uniform priors">
+</object>
+
+
+<h2>Bayes factor against independence using uniform priors</h2>
+
+
+<h3>Description</h3>
+
+<p>
+Computes a Bayes factor against independence for a two-way contingency table assuming
+uniform prior distributions
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+ctable(y,a)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>y</code></td>
+<td>
+matrix of counts</td></tr>
+<tr valign="top"><td><code>a</code></td>
+<td>
+matrix of prior hyperparameters</td></tr>
+</table>
+
+<h3>Value</h3>
+
+<p>
+value of the Bayes factor against independence</p>
+
+<h3>Author(s)</h3>
+
+<p>
+Jim Albert
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+y=matrix(c(10,4,6,3,6,10),c(2,3))
+a=matrix(rep(1,6),c(2,3))
+ctable(y,a)
+</pre>
+
+
+
+<hr><div align="center">[Package <em>LearnBayes</em> version 2.0 <a href="00Index.html">Index]</a></div>
+
+</body></html>

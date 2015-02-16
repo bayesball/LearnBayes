@@ -1,0 +1,84 @@
+<html><head><title>Random walk Metropolis algorithm of a posterior distribution</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" type="text/css" href="Rchm.css">
+</head>
+<body>
+
+<table width="100%"><tr><td>rwmetrop(LearnBayes)</td><td align="right">R Documentation</td></tr></table><object type="application/x-oleobject" classid="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+<param name="keyword" value="R:   rwmetrop">
+<param name="keyword" value=" Random walk Metropolis algorithm of a posterior distribution">
+</object>
+
+
+<h2>Random walk Metropolis algorithm of a posterior distribution</h2>
+
+
+<h3>Description</h3>
+
+<p>
+Simulates iterates of a random walk Metropolis chain for an arbitrary  real-valued
+posterior density defined by the user
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+rwmetrop(logpost,proposal,start,m,par)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>logpost</code></td>
+<td>
+function defining the log posterior density</td></tr>
+<tr valign="top"><td><code>proposal</code></td>
+<td>
+a list containing var, an estimated variance-covariance matrix, and scale, the Metropolis scale factor</td></tr>
+<tr valign="top"><td><code>start</code></td>
+<td>
+vector containing the starting value of the parameter</td></tr>
+<tr valign="top"><td><code>m</code></td>
+<td>
+the number of iterations of the chain</td></tr>
+<tr valign="top"><td><code>par</code></td>
+<td>
+data that is used in the function logpost</td></tr>
+</table>
+
+<h3>Value</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>par</code></td>
+<td>
+a matrix of simulated values where each row corresponds to a value of the vector parameter</td></tr>
+<tr valign="top"><td><code>accept</code></td>
+<td>
+the acceptance rate of the algorithm</td></tr>
+</table>
+
+<h3>Author(s)</h3>
+
+<p>
+Jim Albert
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+data=c(6,2,3,10)
+varcov=diag(c(1,1))
+proposal=list(var=varcov,scale=2)
+start=array(c(1,1),c(1,2))
+m=1000
+s=rwmetrop(logctablepost,proposal,start,m,data)
+</pre>
+
+
+
+<hr><div align="center">[Package <em>LearnBayes</em> version 2.0 <a href="00Index.html">Index]</a></div>
+
+</body></html>

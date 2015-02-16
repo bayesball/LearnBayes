@@ -1,0 +1,45 @@
+Chapter.1.2   Exploring a Student Dataset
+Chapter.1.3   Exploring the Robustness of the t Statistic
+Chapter.2.3   Learning About a Proportion - Using a Discrete Prior
+Chapter.2.4   Learning About a Proportion - Using a Beta Prior
+Chapter.2.5   Learning About a Proportion - Using a Histogram Prior
+Chapter.2.6   Learning About a Proportion - Prediction
+Chapter.3.2   Normal Distribution with Known Mean, Unknown Variance
+Chapter.3.3   Estimating a Heart Transplant Mortality Rate
+Chapter.3.4   Learning about a Normal Mean with Known Variance
+Chapter.3.5   Mixtures of Conjugate Priors
+Chapter.3.6   A Bayesian Test of the Fairness of a Coin
+Chapter.4.2   Normal Data with Both Parameters Unknown
+Chapter.4.3   A Multinomial Model
+Chapter.4.4   A Bioassay Experiment
+Chapter.4.5   Comparing Two Proportions
+Chapter.5.4   A Beta-Binomial Model for Overdispersion
+Chapter.5.6   Approximations Based on Posterior Modes for Beta-Binomial Model
+Chapter.5.7   Monte Carlo Method for Computing Integrals
+Chapter.5.8   Rejection Sampling
+Chapter.5.9   Importance Sampling
+Chapter.5.10  Sampling Importance Resampling
+Chapter.6.2   Discrete Markov Chains
+Chapter.6.7   MCMC - Learning About a Normal Population Based on Grouped Data
+Chapter.6.8   MCMC Output Analysis
+Chapter.6.9   Modeling Data with Cauchy Errors
+Chapter.6.10   Analysis of the Stanford Heart Transplant Data
+Chapter.7.2   Introduction to Career Trajectory Example
+Chapter.7.3   Introduction to Heart Transplant Mortality Data
+Chapter.7.4   Checking Assumption of Equal Mortality Rates
+Chapter.7.5   Exchangeable Model for Mortality Rates
+Chapter.7.7   Simulating from Posterior from Exchangeable Model
+Chapter.7.8   Illustration of Posterior Inferences
+Chapter.7.9   Bayesian Sensitivity Analysis
+Chapter.7.10   Posterior Predictive Model Checking
+Chapter.8.3   One-Sided Test of a Normal Mean
+Chapter.8.4   Two-Sided Test of a Normal Mean
+Chapter.8.6   Models for Soccer Goal Scoring
+Chapter.8.7   Test if Baseball Player is Streaky
+Chapter.8.8   Test of Independence in a Two-Way Contingency Table
+Chapter.9.2   Normal Linear Regression
+Chapter.9.3   Model Selection Using Zellner's g Prior
+Chapter.9.4   Survival Modeling
+Chapter.10.2   Robust Modeling
+Chapter.10.3   Binary Response Regression with Probit Link
+Chapter.10.4   Estimating Table of Means with Belief of Order Restriction

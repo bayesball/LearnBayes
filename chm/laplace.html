@@ -1,0 +1,87 @@
+<html><head><title>Summarization of a posterior density by the Laplace method</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" type="text/css" href="Rchm.css">
+</head>
+<body>
+
+<table width="100%"><tr><td>laplace(LearnBayes)</td><td align="right">R Documentation</td></tr></table><object type="application/x-oleobject" classid="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+<param name="keyword" value="R:   laplace">
+<param name="keyword" value=" Summarization of a posterior density by the Laplace method">
+</object>
+
+
+<h2>Summarization of a posterior density by the Laplace method</h2>
+
+
+<h3>Description</h3>
+
+<p>
+For a general posterior density, computes the posterior mode, 
+the associated variance-covariance matrix, and an estimate at the
+logarithm at the normalizing constant.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+laplace(logpost,mode,par)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>logpost</code></td>
+<td>
+function that defines the logarithm of the posterior density</td></tr>
+<tr valign="top"><td><code>mode</code></td>
+<td>
+vector that is a guess at the posterior mode</td></tr>
+<tr valign="top"><td><code>par</code></td>
+<td>
+vector or list of parameters associated with the function logpost</td></tr>
+</table>
+
+<h3>Value</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>mode</code></td>
+<td>
+current estimate at the posterior mode</td></tr>
+<tr valign="top"><td><code>var</code></td>
+<td>
+current estimate at the associated variance-covariance matrix</td></tr>
+<tr valign="top"><td><code>int</code></td>
+<td>
+estimate at the logarithm of the normalizing constant</td></tr>
+<tr valign="top"><td><code>converge</code></td>
+<td>
+indication (TRUE or FALSE) if the algorithm converged</td></tr>
+</table>
+
+<h3>Author(s)</h3>
+
+<p>
+Jim Albert
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+logpost=function(theta,data)
+{
+s=5
+sum(-log(1+(data-theta)^2/s^2))
+}
+data=c(10,12,14,13,12,15)
+start=10
+laplace(logpost,start,data)
+</pre>
+
+
+
+<hr><div align="center">[Package <em>LearnBayes</em> version 2.0 <a href="00Index.html">Index]</a></div>
+
+</body></html>

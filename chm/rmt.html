@@ -1,0 +1,72 @@
+<html><head><title>Random number generation for multivariate t</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" type="text/css" href="Rchm.css">
+</head>
+<body>
+
+<table width="100%"><tr><td>rmt(LearnBayes)</td><td align="right">R Documentation</td></tr></table><object type="application/x-oleobject" classid="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+<param name="keyword" value="R:   rmt">
+<param name="keyword" value=" Random number generation for multivariate t">
+</object>
+
+
+<h2>Random number generation for multivariate t</h2>
+
+
+<h3>Description</h3>
+
+<p>
+Simulates from a multivariate t distribution
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+rmt(n = 1, mean = rep(0, d), S, df = Inf)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>n</code></td>
+<td>
+number of random numbers to be generated</td></tr>
+<tr valign="top"><td><code>mean</code></td>
+<td>
+numeric vector giving the location parameter of the distribution</td></tr>
+<tr valign="top"><td><code>S</code></td>
+<td>
+a positive definite matrix representing the scale matrix of the distribution</td></tr>
+<tr valign="top"><td><code>df</code></td>
+<td>
+degrees of freedom</td></tr>
+</table>
+
+<h3>Value</h3>
+
+<p>
+matrix of n rows of random vectors</p>
+
+<h3>Author(s)</h3>
+
+<p>
+Jim Albert
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+mu &lt;- c(1,12,2)
+Sigma &lt;- matrix(c(1,2,0,2,5,0.5,0,0.5,3), 3, 3)
+df &lt;- 4
+x &lt;- rmt(10, mu, Sigma, df)
+</pre>
+
+
+
+<hr><div align="center">[Package <em>LearnBayes</em> version 2.0 <a href="00Index.html">Index]</a></div>
+
+</body></html>

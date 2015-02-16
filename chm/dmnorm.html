@@ -1,0 +1,72 @@
+<html><head><title>The probability density function for the multivariate normal (Gaussian) probability distribution</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" type="text/css" href="Rchm.css">
+</head>
+<body>
+
+<table width="100%"><tr><td>dmnorm(LearnBayes)</td><td align="right">R Documentation</td></tr></table><object type="application/x-oleobject" classid="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+<param name="keyword" value="R:   dmnorm">
+<param name="keyword" value=" The probability density function for the multivariate normal (Gaussian) probability distribution">
+</object>
+
+
+<h2>The probability density function for the multivariate normal (Gaussian) probability distribution</h2>
+
+
+<h3>Description</h3>
+
+<p>
+Computes the density of a multivariate normal distribution
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+dmnorm(x, mean = rep(0, d), varcov, log = FALSE)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>x</code></td>
+<td>
+vector of length d or matrix with d columns, giving the coordinates of points where density is to evaluated</td></tr>
+<tr valign="top"><td><code>mean</code></td>
+<td>
+numeric vector giving the location parameter of the distribution</td></tr>
+<tr valign="top"><td><code>varcov</code></td>
+<td>
+a positive definite matrix representing the scale matrix of the distribution</td></tr>
+<tr valign="top"><td><code>log</code></td>
+<td>
+a logical value; if TRUE, the logarithm of the density is to be computed</td></tr>
+</table>
+
+<h3>Value</h3>
+
+<p>
+vector of density values</p>
+
+<h3>Author(s)</h3>
+
+<p>
+Jim Albert
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+mu &lt;- c(1,12,2)
+Sigma &lt;- matrix(c(1,2,0,2,5,0.5,0,0.5,3), 3, 3)
+x &lt;- c(2,14,0)
+f &lt;- dmnorm(x, mu, Sigma)
+</pre>
+
+
+
+<hr><div align="center">[Package <em>LearnBayes</em> version 2.0 <a href="00Index.html">Index]</a></div>
+
+</body></html>

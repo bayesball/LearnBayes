@@ -1,0 +1,91 @@
+<html><head><title>Importance sampling using a t proposal density</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" type="text/css" href="Rchm.css">
+</head>
+<body>
+
+<table width="100%"><tr><td>impsampling(LearnBayes)</td><td align="right">R Documentation</td></tr></table><object type="application/x-oleobject" classid="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+<param name="keyword" value="R:   impsampling">
+<param name="keyword" value=" Importance sampling using a t proposal density">
+</object>
+
+
+<h2>Importance sampling using a t proposal density</h2>
+
+
+<h3>Description</h3>
+
+<p>
+Implements importance sampling to compute the posterior mean of a function
+using a multivariate t proposal density
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+impsampling(logf,tpar,h,n,data)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>logf</code></td>
+<td>
+function that defines the logarithm of the density of interest</td></tr>
+<tr valign="top"><td><code>tpar</code></td>
+<td>
+list of parameters of t proposal density including the mean m, scale matrix var, 
+and degrees of freedom df</td></tr>
+<tr valign="top"><td><code>h</code></td>
+<td>
+function that defines h(theta)</td></tr>
+<tr valign="top"><td><code>n</code></td>
+<td>
+number of simulated draws from proposal density</td></tr>
+<tr valign="top"><td><code>data</code></td>
+<td>
+data and or parameters used in the function logf</td></tr>
+</table>
+
+<h3>Value</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>est</code></td>
+<td>
+estimate at the posterior mean</td></tr>
+<tr valign="top"><td><code>se</code></td>
+<td>
+simulation standard error of estimate</td></tr>
+<tr valign="top"><td><code>theta</code></td>
+<td>
+matrix of simulated draws from proposal density</td></tr>
+<tr valign="top"><td><code>wt</code></td>
+<td>
+vector of importance sampling weights</td></tr>
+</table>
+
+<h3>Author(s)</h3>
+
+<p>
+Jim Albert
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+data(cancermortality)
+start=c(-7,6)
+fit=laplace(betabinexch,start,cancermortality)
+tpar=list(m=fit$mode,var=2*fit$var,df=4)
+myfunc=function(theta) return(theta[2])
+theta=impsampling(betabinexch,tpar,myfunc,1000,cancermortality)
+</pre>
+
+
+
+<hr><div align="center">[Package <em>LearnBayes</em> version 2.0 <a href="00Index.html">Index]</a></div>
+
+</body></html>

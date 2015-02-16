@@ -1,0 +1,79 @@
+<html><head><title>Simulated draws from a bivariate density function on a grid</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" type="text/css" href="Rchm.css">
+</head>
+<body>
+
+<table width="100%"><tr><td>simcontour(LearnBayes)</td><td align="right">R Documentation</td></tr></table><object type="application/x-oleobject" classid="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+<param name="keyword" value="R:   simcontour">
+<param name="keyword" value=" Simulated draws from a bivariate density function on a grid">
+</object>
+
+
+<h2>Simulated draws from a bivariate density function on a grid</h2>
+
+
+<h3>Description</h3>
+
+<p>
+For a general two parameter density defined on a grid, simulates a random sample.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+simcontour(logf,limits,data,m)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>logf</code></td>
+<td>
+function that defines the logarithm of the  density</td></tr>
+<tr valign="top"><td><code>limits</code></td>
+<td>
+limits (xlo, xhi, ylo, yhi) that cover the joint probability density</td></tr>
+<tr valign="top"><td><code>data</code></td>
+<td>
+vector or list of parameters associated with the function logpost</td></tr>
+<tr valign="top"><td><code>m</code></td>
+<td>
+size of simulated sample</td></tr>
+</table>
+
+<h3>Value</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>x</code></td>
+<td>
+vector of simulated draws of the first parameter</td></tr>
+<tr valign="top"><td><code>y</code></td>
+<td>
+vector of simulated draws of the second parameter</td></tr>
+</table>
+
+<h3>Author(s)</h3>
+
+<p>
+Jim Albert
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+m=array(c(0,0),c(2,1))
+v=array(c(1,.6,.6,1),c(2,2))
+normpar=list(m=m,v=v)
+s=simcontour(lbinorm,c(-4,4,-4,4),normpar,1000)
+plot(s$x,s$y)
+</pre>
+
+
+
+<hr><div align="center">[Package <em>LearnBayes</em> version 2.0 <a href="00Index.html">Index]</a></div>
+
+</body></html>

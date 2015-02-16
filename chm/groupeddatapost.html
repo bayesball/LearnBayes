@@ -1,0 +1,70 @@
+<html><head><title>Log posterior of normal parameters when data is in grouped form</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" type="text/css" href="Rchm.css">
+</head>
+<body>
+
+<table width="100%"><tr><td>groupeddatapost(LearnBayes)</td><td align="right">R Documentation</td></tr></table><object type="application/x-oleobject" classid="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+<param name="keyword" value="R:   groupeddatapost">
+<param name="keyword" value=" Log posterior of normal parameters when data is in grouped form">
+</object>
+
+
+<h2>Log posterior of normal parameters when data is in grouped form</h2>
+
+
+<h3>Description</h3>
+
+<p>
+Computes the log posterior density of (M,log S) for normal sampling where the data is
+observed in grouped form
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+groupeddatapost(theta,data)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>theta</code></td>
+<td>
+vector of parameter values M and log S</td></tr>
+<tr valign="top"><td><code>data</code></td>
+<td>
+list with components int.lo, a vector of left endpoints,
+int.hi, a vector of right endpoints, and f, a vector of bin frequencies</td></tr>
+</table>
+
+<h3>Value</h3>
+
+<p>
+value of the log posterior</p>
+
+<h3>Author(s)</h3>
+
+<p>
+Jim Albert
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+int.lo=c(-Inf,10,15,20,25)
+int.hi=c(10,15,20,25,Inf)
+f=c(2,5,8,4,2)
+data=list(int.lo=int.lo,int.hi=int.hi,f=f)
+theta=c(20,1)
+groupeddatapost(theta,data)
+</pre>
+
+
+
+<hr><div align="center">[Package <em>LearnBayes</em> version 2.0 <a href="00Index.html">Index]</a></div>
+
+</body></html>

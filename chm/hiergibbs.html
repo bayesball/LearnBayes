@@ -1,0 +1,75 @@
+<html><head><title>Gibbs sampling for a hierarchical regression model</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" type="text/css" href="Rchm.css">
+</head>
+<body>
+
+<table width="100%"><tr><td>hiergibbs(LearnBayes)</td><td align="right">R Documentation</td></tr></table><object type="application/x-oleobject" classid="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+<param name="keyword" value="R:   hiergibbs">
+<param name="keyword" value=" Gibbs sampling for a hierarchical regression model">
+</object>
+
+
+<h2>Gibbs sampling for a hierarchical regression model</h2>
+
+
+<h3>Description</h3>
+
+<p>
+Implements Gibbs sampling for estimating a two-way table of means
+under a hierarchical regression model.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+hiergibbs(data,m)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>data</code></td>
+<td>
+data matrix with columns observed sample means, sample sizes, and values of two covariates</td></tr>
+<tr valign="top"><td><code>m</code></td>
+<td>
+number of cycles of Gibbs sampling</td></tr>
+</table>
+
+<h3>Value</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>beta</code></td>
+<td>
+matrix of simulated values of regression vector</td></tr>
+<tr valign="top"><td><code>mu</code></td>
+<td>
+matrix of simulated values of cell means</td></tr>
+<tr valign="top"><td><code>var</code></td>
+<td>
+vector of simulated values of second-stage prior variance</td></tr>
+</table>
+
+<h3>Author(s)</h3>
+
+<p>
+Jim Albert
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+data(iowagpa)
+m=1000
+s=hiergibbs(iowagpa,m)
+</pre>
+
+
+
+<hr><div align="center">[Package <em>LearnBayes</em> version 2.0 <a href="00Index.html">Index]</a></div>
+
+</body></html>

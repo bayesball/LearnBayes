@@ -1,0 +1,104 @@
+[OPTIONS]
+Auto Index=Yes
+Contents file=LearnBayes.toc
+Compatibility=1.1 or later
+Compiled file=LearnBayes.chm
+Default topic=00Index.html
+Display compile progress=No
+Full-text search=Yes
+Full text search stop list file=..\..\..\gnuwin32\help\R.stp
+Title=R Help for package LearnBayes
+
+
+[FILES]
+00Index.html
+achievement.html
+baseball.1964.html
+bayes.influence.html
+bayes.model.selection.html
+bayes.probit.html
+bayesresiduals.html
+bermuda.grass.html
+beta.select.html
+betabinexch.html
+betabinexch0.html
+bfexch.html
+bfindep.html
+binomial.beta.mix.html
+birdextinct.html
+birthweight.html
+blinreg.html
+blinregexpected.html
+blinregpred.html
+bprobit.probs.html
+bradley.terry.post.html
+breastcancer.html
+calculus.grades.html
+cancermortality.html
+careertraj.setup.html
+cauchyerrorpost.html
+chemotherapy.html
+ctable.html
+darwin.html
+discint.html
+dmnorm.html
+dmt.html
+donner.html
+election.2008.html
+election.html
+footballscores.html
+gibbs.html
+groupeddatapost.html
+hearttransplants.html
+hiergibbs.html
+histprior.html
+howardprior.html
+impsampling.html
+indepmetrop.html
+iowagpa.html
+jeter2004.html
+laplace.html
+lbinorm.html
+logctablepost.html
+logisticpost.html
+logpoissgamma.html
+logpoissnormal.html
+marathontimes.html
+mnormt.onesided.html
+mnormt.twosided.html
+mycontour.html
+normal.normal.mix.html
+normal.select.html
+normchi2post.html
+normpostpred.html
+normpostsim.html
+ordergibbs.html
+pbetap.html
+pbetat.html
+pdisc.html
+pdiscp.html
+poissgamexch.html
+poisson.gamma.mix.html
+predplot.html
+puffin.html
+rdirichlet.html
+reg.gprior.post.html
+regroup.html
+rejectsampling.html
+rigamma.html
+rmnorm.html
+rmt.html
+robustt.html
+rtruncated.html
+rwmetrop.html
+schmidt.html
+simcontour.html
+sir.html
+sluggerdata.html
+soccergoals.html
+stanfordheart.html
+strikeout.html
+studentdata.html
+transplantpost.html
+triplot.html
+weibullregpost.html

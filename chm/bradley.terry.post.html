@@ -1,0 +1,69 @@
+<html><head><title>Log posterior of a Bradley Terry random effects model</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" type="text/css" href="Rchm.css">
+</head>
+<body>
+
+<table width="100%"><tr><td>bradley.terry.post(LearnBayes)</td><td align="right">R Documentation</td></tr></table><object type="application/x-oleobject" classid="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+<param name="keyword" value="R:   bradley.terry.post">
+<param name="keyword" value=" Log posterior of a Bradley Terry random effects model">
+</object>
+
+
+<h2>Log posterior of a Bradley Terry random effects model</h2>
+
+
+<h3>Description</h3>
+
+<p>
+Computes the log posterior density of the talent parameters and the log 
+standard deviation for a Bradley Terry model with normal
+random effects
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+bradley.terry.post(theta,data)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>theta</code></td>
+<td>
+vector of talent parameters and log standard deviation</td></tr>
+<tr valign="top"><td><code>data</code></td>
+<td>
+data matrix with columns team1, team2, wins by team1, and
+wins by team2</td></tr>
+</table>
+
+<h3>Value</h3>
+
+<p>
+value of the log posterior</p>
+
+<h3>Author(s)</h3>
+
+<p>
+Jim Albert
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+data(baseball.1964)
+team.strengths=rep(0,10)
+log.sigma=0
+bradley.terry.post(c(team.strengths,log.sigma),baseball.1964)
+</pre>
+
+
+
+<hr><div align="center">[Package <em>LearnBayes</em> version 2.0 <a href="00Index.html">Index]</a></div>
+
+</body></html>

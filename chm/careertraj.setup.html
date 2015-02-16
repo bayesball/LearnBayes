@@ -1,0 +1,81 @@
+<html><head><title>Setup for Career Trajectory Application</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" type="text/css" href="Rchm.css">
+</head>
+<body>
+
+<table width="100%"><tr><td>careertraj.setup(LearnBayes)</td><td align="right">R Documentation</td></tr></table><object type="application/x-oleobject" classid="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+<param name="keyword" value="R:   careertraj.setup">
+<param name="keyword" value=" Setup for Career Trajectory Application">
+</object>
+
+
+<h2>Setup for Career Trajectory Application</h2>
+
+
+<h3>Description</h3>
+
+<p>
+Setups the data matrices for the use of WinBUGS
+in the career trajectory application.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+careertraj.setup(data)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>data</code></td>
+<td>
+data matrix for ballplayers with variables Player, Year, Age, G, AB, R, H, X2B, X3B, HR, RBI, BB, SO</td></tr>
+</table>
+
+<h3>Value</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>player.names</code></td>
+<td>
+vector of player names</td></tr>
+<tr valign="top"><td><code>y</code></td>
+<td>
+matrix of home runs for players where a row corresponds to the home runs for a player during
+all the years of his career</td></tr>
+<tr valign="top"><td><code>n</code></td>
+<td>
+matrix of AB-SO for all players</td></tr>
+<tr valign="top"><td><code>x</code></td>
+<td>
+matrix of ages for all players for all years of their careers</td></tr>
+<tr valign="top"><td><code>T</code></td>
+<td>
+vector of number of seasons for all players</td></tr>
+<tr valign="top"><td><code>N</code></td>
+<td>
+number of players</td></tr>
+</table>
+
+<h3>Author(s)</h3>
+
+<p>
+Jim Albert
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+data(sluggerdata)
+careertraj.setup(sluggerdata)
+</pre>
+
+
+
+<hr><div align="center">[Package <em>LearnBayes</em> version 2.0 <a href="00Index.html">Index]</a></div>
+
+</body></html>

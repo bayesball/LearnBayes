@@ -1,0 +1,67 @@
+<html><head><title>Log posterior of a Pareto model for survival data</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" type="text/css" href="Rchm.css">
+</head>
+<body>
+
+<table width="100%"><tr><td>transplantpost(LearnBayes)</td><td align="right">R Documentation</td></tr></table><object type="application/x-oleobject" classid="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+<param name="keyword" value="R:   transplantpost">
+<param name="keyword" value=" Log posterior of a Pareto model for survival data">
+</object>
+
+
+<h2>Log posterior of a Pareto model for survival data</h2>
+
+
+<h3>Description</h3>
+
+<p>
+Computes the log posterior density of (log tau, log lambda, log p)  for a Pareto
+model for survival data
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+transplantpost(theta,data)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>theta</code></td>
+<td>
+vector of parameter values of log tau, log lambda, and log p</td></tr>
+<tr valign="top"><td><code>data</code></td>
+<td>
+data matrix with columns survival time, transplant indicator, time to transplant, and
+censoring indicator</td></tr>
+</table>
+
+<h3>Value</h3>
+
+<p>
+value of the log posterior</p>
+
+<h3>Author(s)</h3>
+
+<p>
+Jim Albert
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+data(stanfordheart)
+theta=c(0,3,-1)
+transplantpost(theta,stanfordheart)
+</pre>
+
+
+
+<hr><div align="center">[Package <em>LearnBayes</em> version 2.0 <a href="00Index.html">Index]</a></div>
+
+</body></html>

@@ -1,0 +1,76 @@
+<html><head><title>Probability density function for multivariate t</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" type="text/css" href="Rchm.css">
+</head>
+<body>
+
+<table width="100%"><tr><td>dmt(LearnBayes)</td><td align="right">R Documentation</td></tr></table><object type="application/x-oleobject" classid="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+<param name="keyword" value="R:   dmt">
+<param name="keyword" value=" Probability density function for multivariate t">
+</object>
+
+
+<h2>Probability density function for multivariate t</h2>
+
+
+<h3>Description</h3>
+
+<p>
+Computes the density of a multivariate t distribution
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+dmt(x, mean = rep(0, d), S, df = Inf, log=FALSE)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>x</code></td>
+<td>
+vector of length d or matrix with d columns, giving the coordinates of points where density is to evaluated</td></tr>
+<tr valign="top"><td><code>mean</code></td>
+<td>
+numeric vector giving the location parameter of the distribution</td></tr>
+<tr valign="top"><td><code>S</code></td>
+<td>
+a positive definite matrix representing the scale matrix of the distribution</td></tr>
+<tr valign="top"><td><code>df</code></td>
+<td>
+degrees of freedom</td></tr>
+<tr valign="top"><td><code>log</code></td>
+<td>
+a logical value; if TRUE, the logarithm of the density is to be computed</td></tr>
+</table>
+
+<h3>Value</h3>
+
+<p>
+vector of density values</p>
+
+<h3>Author(s)</h3>
+
+<p>
+Jim Albert
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+mu &lt;- c(1,12,2)
+Sigma &lt;- matrix(c(1,2,0,2,5,0.5,0,0.5,3), 3, 3)
+df &lt;- 4
+x &lt;- c(2,14,0)
+f &lt;- dmt(x, mu, Sigma, df)
+</pre>
+
+
+
+<hr><div align="center">[Package <em>LearnBayes</em> version 2.0 <a href="00Index.html">Index]</a></div>
+
+</body></html>

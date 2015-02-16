@@ -1,0 +1,84 @@
+<html><head><title>Simulates from a truncated probability distribution</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" type="text/css" href="Rchm.css">
+</head>
+<body>
+
+<table width="100%"><tr><td>rtruncated(LearnBayes)</td><td align="right">R Documentation</td></tr></table><object type="application/x-oleobject" classid="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+<param name="keyword" value="R:   rtruncated">
+<param name="keyword" value=" Simulates from a truncated probability distribution">
+</object>
+
+
+<h2>Simulates from a truncated probability distribution</h2>
+
+
+<h3>Description</h3>
+
+<p>
+Simulates a sample from a truncated distribution where the functions for the cdf and inverse cdf are available.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+rtruncated(n,lo,hi,pf,qf,...)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>n</code></td>
+<td>
+size of simulated sample</td></tr>
+<tr valign="top"><td><code>lo</code></td>
+<td>
+low truncation point</td></tr>
+<tr valign="top"><td><code>hi</code></td>
+<td>
+high truncation point</td></tr>
+<tr valign="top"><td><code>pf</code></td>
+<td>
+function containing cdf of untruncated distribution</td></tr>
+<tr valign="top"><td><code>qf</code></td>
+<td>
+function containing inverse cdf of untruncated distribution</td></tr>
+<tr valign="top"><td><code>...</code></td>
+<td>
+parameters used in the functions pf and qf</td></tr>
+</table>
+
+<h3>Value</h3>
+
+<p>
+vector of simulated draws from distribution</p>
+
+<h3>Author(s)</h3>
+
+<p>
+Jim Albert
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+# want a sample of 10 from normal(2, 1) distribution truncated below by 3
+n=10
+lo=3
+hi=Inf
+rtruncated(n,lo,hi,pnorm,qnorm,mean=2,sd=1)
+# want a sample of 20 from beta(2, 5) distribution truncated to (.3, .8)
+n=20
+lo=0.3
+hi=0.8
+rtruncated(n,lo,hi,pbeta,qbeta,2,5)
+</pre>
+
+
+
+<hr><div align="center">[Package <em>LearnBayes</em> version 2.0 <a href="00Index.html">Index]</a></div>
+
+</body></html>

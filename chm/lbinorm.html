@@ -1,0 +1,67 @@
+<html><head><title>Logarithm of bivariate normal density</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" type="text/css" href="Rchm.css">
+</head>
+<body>
+
+<table width="100%"><tr><td>lbinorm(LearnBayes)</td><td align="right">R Documentation</td></tr></table><object type="application/x-oleobject" classid="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+<param name="keyword" value="R:   lbinorm">
+<param name="keyword" value=" Logarithm of bivariate normal density">
+</object>
+
+
+<h2>Logarithm of bivariate normal density</h2>
+
+
+<h3>Description</h3>
+
+<p>
+Computes the logarithm of a bivariate normal density
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+lbinorm(xy,par)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>xy</code></td>
+<td>
+vector of values of two variables x and y</td></tr>
+<tr valign="top"><td><code>par</code></td>
+<td>
+list with components m, a vector of means, and v, a variance-covariance matrix</td></tr>
+</table>
+
+<h3>Value</h3>
+
+<p>
+value of the kernel of the log density</p>
+
+<h3>Author(s)</h3>
+
+<p>
+Jim Albert
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+mean=c(0,0)
+varcov=diag(c(1,1))
+value=c(1,1)
+param=list(m=mean,v=varcov)
+lbinorm(value,param)
+</pre>
+
+
+
+<hr><div align="center">[Package <em>LearnBayes</em> version 2.0 <a href="00Index.html">Index]</a></div>
+
+</body></html>

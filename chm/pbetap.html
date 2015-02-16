@@ -1,0 +1,71 @@
+<html><head><title>Predictive distribution for a binomial sample with a beta prior</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" type="text/css" href="Rchm.css">
+</head>
+<body>
+
+<table width="100%"><tr><td>pbetap(LearnBayes)</td><td align="right">R Documentation</td></tr></table><object type="application/x-oleobject" classid="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+<param name="keyword" value="R:   pbetap">
+<param name="keyword" value=" Predictive distribution for a binomial sample with a beta prior">
+</object>
+
+
+<h2>Predictive distribution for a binomial sample with a beta prior</h2>
+
+
+<h3>Description</h3>
+
+<p>
+Computes predictive distribution for number of successes of
+future binomial experiment
+with a discrete distribution for the proportion.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+pbetap(ab, n, s)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>ab</code></td>
+<td>
+vector of parameters of the beta prior</td></tr>
+<tr valign="top"><td><code>n</code></td>
+<td>
+size of future binomial sample</td></tr>
+<tr valign="top"><td><code>s</code></td>
+<td>
+vector of number of successes for future binomial experiment</td></tr>
+</table>
+
+<h3>Value</h3>
+
+<p>
+vector of predictive probabilities for the values in the vector s</p>
+
+<h3>Author(s)</h3>
+
+<p>
+Jim Albert
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+ab=c(3,12)
+n=10
+s=0:10
+pbetap(ab,n,s)
+</pre>
+
+
+
+<hr><div align="center">[Package <em>LearnBayes</em> version 2.0 <a href="00Index.html">Index]</a></div>
+
+</body></html>

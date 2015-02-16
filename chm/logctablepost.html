@@ -1,0 +1,68 @@
+<html><head><title>Log posterior of difference and sum of logits in a 2x2 table</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" type="text/css" href="Rchm.css">
+</head>
+<body>
+
+<table width="100%"><tr><td>logctablepost(LearnBayes)</td><td align="right">R Documentation</td></tr></table><object type="application/x-oleobject" classid="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+<param name="keyword" value="R:   logctablepost">
+<param name="keyword" value=" Log posterior of difference and sum of logits in a 2x2 table">
+</object>
+
+
+<h2>Log posterior of difference and sum of logits in a 2x2 table</h2>
+
+
+<h3>Description</h3>
+
+<p>
+Computes the log posterior density for the difference and sum of logits
+in a 2x2 contingency table for independent binomial samples and uniform
+prior placed on the logits
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+logctablepost(theta,data)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>theta</code></td>
+<td>
+vector of parameter values "difference of logits" and "sum of logits")</td></tr>
+<tr valign="top"><td><code>data</code></td>
+<td>
+vector containing number of successes and failures for first sample, and then second sample</td></tr>
+</table>
+
+<h3>Value</h3>
+
+<p>
+value of the log posterior</p>
+
+<h3>Author(s)</h3>
+
+<p>
+Jim Albert
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+s1=6; f1=2; s2=3; f2=10
+data=c(s1,f1,s2,f2)
+theta=c(2,4)
+logctablepost(theta,data)
+</pre>
+
+
+
+<hr><div align="center">[Package <em>LearnBayes</em> version 2.0 <a href="00Index.html">Index]</a></div>
+
+</body></html>

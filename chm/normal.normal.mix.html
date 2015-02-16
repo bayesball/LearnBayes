@@ -1,0 +1,79 @@
+<html><head><title>Computes the posterior for normal sampling and a mixture of normals prior</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" type="text/css" href="Rchm.css">
+</head>
+<body>
+
+<table width="100%"><tr><td>normal.normal.mix(LearnBayes)</td><td align="right">R Documentation</td></tr></table><object type="application/x-oleobject" classid="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+<param name="keyword" value="R:   normal.normal.mix">
+<param name="keyword" value=" Computes the posterior for normal sampling and a mixture of normals prior">
+</object>
+
+
+<h2>Computes the posterior for normal sampling and a mixture of normals prior</h2>
+
+
+<h3>Description</h3>
+
+<p>
+Computes the parameters and mixing probabilities for a normal sampling problem, variance known,
+where the prior is a discrete mixture of normal densities.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+normal.normal.mix(probs,normalpar,data)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>probs</code></td>
+<td>
+vector of probabilities of the normal components of the prior</td></tr>
+<tr valign="top"><td><code>normalpar</code></td>
+<td>
+matrix where each row contains the mean and variance parameters for a normal component of the prior</td></tr>
+<tr valign="top"><td><code>data</code></td>
+<td>
+vector of observation and sampling variance</td></tr>
+</table>
+
+<h3>Value</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>probs</code></td>
+<td>
+vector of  probabilities of the normal components of the posterior</td></tr>
+<tr valign="top"><td><code>normalpar</code></td>
+<td>
+matrix where each row contains the mean and variance parameters for a normal component of the posterior</td></tr>
+</table>
+
+<h3>Author(s)</h3>
+
+<p>
+Jim Albert
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+probs=c(.5, .5)
+normal.par1=c(0,1)
+normal.par2=c(2,.5)
+normalpar=rbind(normal.par1,normal.par2)
+y=1; sigma2=.5
+data=c(y,sigma2)
+normal.normal.mix(probs,normalpar,data)
+</pre>
+
+
+
+<hr><div align="center">[Package <em>LearnBayes</em> version 2.0 <a href="00Index.html">Index]</a></div>
+
+</body></html>

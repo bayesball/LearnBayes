@@ -1,0 +1,83 @@
+<html><head><title>Simulates from a probit binary response regression model using data augmentation and Gibbs sampling</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" type="text/css" href="Rchm.css">
+</head>
+<body>
+
+<table width="100%"><tr><td>bayes.probit(LearnBayes)</td><td align="right">R Documentation</td></tr></table><object type="application/x-oleobject" classid="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+<param name="keyword" value="R:   bayes.probit">
+<param name="keyword" value=" Simulates from a probit binary response regression model using data augmentation and Gibbs sampling">
+</object>
+
+
+<h2>Simulates from a probit binary response regression model using data augmentation and Gibbs sampling</h2>
+
+
+<h3>Description</h3>
+
+<p>
+Gives a simulated sample from the joint posterior distribution of the regression
+vector for a binary response regression model with a probit link and a 
+informative normal(beta, P) prior.  Also computes the log marginal likelihood when
+a subjective prior is used.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+bayes.probit(y,X,m,prior=list(beta=0,P=0))
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>y</code></td>
+<td>
+vector of binary responses</td></tr>
+<tr valign="top"><td><code>X</code></td>
+<td>
+covariate matrix</td></tr>
+<tr valign="top"><td><code>m</code></td>
+<td>
+number of simulations desired</td></tr>
+<tr valign="top"><td><code>prior</code></td>
+<td>
+list with components beta, the prior mean, and P, the prior precision matrix</td></tr>
+</table>
+
+<h3>Value</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>beta</code></td>
+<td>
+matrix of simulated draws of regression vector beta where each row corresponds to one draw</td></tr>
+<tr valign="top"><td><code>log.marg</code></td>
+<td>
+simulation estimate at log marginal likelihood of the model</td></tr>
+</table>
+
+<h3>Author(s)</h3>
+
+<p>
+Jim Albert
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+response=c(0,1,0,0,0,1,1,1,1,1)
+covariate=c(1,2,3,4,5,6,7,8,9,10)
+X=cbind(1,covariate)
+prior=list(beta=c(0,0),P=diag(c(.5,10)))
+m=1000
+s=bayes.probit(response,X,m,prior)
+</pre>
+
+
+
+<hr><div align="center">[Package <em>LearnBayes</em> version 2.0 <a href="00Index.html">Index]</a></div>
+
+</body></html>

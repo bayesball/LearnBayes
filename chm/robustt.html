@@ -1,0 +1,76 @@
+<html><head><title>Gibbs sampling for a robust regression model</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" type="text/css" href="Rchm.css">
+</head>
+<body>
+
+<table width="100%"><tr><td>robustt(LearnBayes)</td><td align="right">R Documentation</td></tr></table><object type="application/x-oleobject" classid="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+<param name="keyword" value="R:   robustt">
+<param name="keyword" value=" Gibbs sampling for a robust regression model">
+</object>
+
+
+<h2>Gibbs sampling for a robust regression model</h2>
+
+
+<h3>Description</h3>
+
+<p>
+Implements Gibbs sampling for a robust t sampling model with location mu, scale sigma, and degrees of freedom v
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+robustt(y,v,m)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>y</code></td>
+<td>
+vector of data values</td></tr>
+<tr valign="top"><td><code>v</code></td>
+<td>
+degrees of freedom for t model</td></tr>
+<tr valign="top"><td><code>m</code></td>
+<td>
+the number of cycles of the Gibbs sampler</td></tr>
+</table>
+
+<h3>Value</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>mu</code></td>
+<td>
+vector of simulated values of mu</td></tr>
+<tr valign="top"><td><code>s2</code></td>
+<td>
+vector of simulated values of sigma2</td></tr>
+<tr valign="top"><td><code>lam</code></td>
+<td>
+matrix of simulated draws of lambda, where each row corresponds to a single draw</td></tr>
+</table>
+
+<h3>Author(s)</h3>
+
+<p>
+Jim Albert
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+data=c(-67,-48,6,8,14,16,23,24,28,29,41,49,67,60,75)
+fit=robustt(data,4,1000)
+</pre>
+
+
+
+<hr><div align="center">[Package <em>LearnBayes</em> version 2.0 <a href="00Index.html">Index]</a></div>
+
+</body></html>
