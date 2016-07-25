@@ -8,4 +8,4 @@ To install, type:
 
 library(devtools)
 
-install_github("bayesball/BayesTestStreak")
+install_github("bayesball/LearnBayes")
