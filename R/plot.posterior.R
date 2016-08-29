@@ -1,5 +1,11 @@
-plot.posterior <- function(y, exact=FALSE, scale=4, ...){
-#  print(match.call())
+plot.posterior <- function(x, ...){
+  stuff <- list(...)
+  if(is.null(stuff$exact)==TRUE) exact <- FALSE else 
+    exact <- stuff$exact
+  if(is.null(stuff$scale)==TRUE) scale <- 4  else
+    scale <- stuff$scale
+  y <- x
+
   p <- length(y$mode)
   if(p == 1){
     if(exact==FALSE){
@@ -10,7 +16,7 @@ plot.posterior <- function(y, exact=FALSE, scale=4, ...){
             y$mode - scale * sqrt(y$var), 
             y$mode + scale * sqrt(y$var),
             main=paste("Approx. Posterior Density", nm), 
-            ylab="Density", ...)
+            ylab="Density")
     } else {
       if(is.list(y$stuff)==FALSE) nm <- "" else {
       if(is.null(y$stuff$name)==TRUE) nm <- "" else 
@@ -19,7 +25,7 @@ plot.posterior <- function(y, exact=FALSE, scale=4, ...){
             y$mode - scale * sqrt(y$var), 
             y$mode + scale * sqrt(y$var),
             main=paste("Exact Posterior Density", nm), 
-            ylab="Density", ...)
+            ylab="Density")
     }
   }
   if(p == 2){
@@ -37,14 +43,14 @@ plot.posterior <- function(y, exact=FALSE, scale=4, ...){
           nm <- y$stuff$name}
       mycontour(lognorm, c(xlo, xhi, ylo, yhi), stuff, 
                 main="Contours of Approx. Posterior Density",
-                xlab=nm[1], ylab=nm[2], ...)
+                xlab=nm[1], ylab=nm[2])
     } else {
       if(is.list(y$stuff)==FALSE) nm <- c("", "") else {
       if(is.null(y$stuff$name)==TRUE) nm <- c("", "") else 
         nm <- y$stuff$name}
       mycontour(y$logpost, c(xlo, xhi, ylo, yhi), y$stuff, 
                 main="Contours of Exact Posterior Density", 
-                xlab=nm[1], ylab=nm[2], ...)
+                xlab=nm[1], ylab=nm[2])
     }
   }
   if(length(y$mode) > 2)

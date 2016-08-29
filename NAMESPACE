@@ -1,1 +1,16 @@
 exportPattern("^[[:alpha:]]+")
+importFrom("grDevices", "gray")
+importFrom("graphics", "barplot", "contour", "curve", "image",
+             "legend", "lines", "plot", "points", "text")
+importFrom("stats", "approx", "binomial", "dbeta", "dbinom", "dgamma",
+             "dnorm", "dpois", "dt", "glm", "hat", "lm", "model.matrix",
+             "optim", "pbeta", "pnorm", "qnorm", "quantile", "rchisq",
+             "rgamma", "rnorm", "runif", "sd", "vcov", "simulate")
+import("coda")
+S3method(print, bayes)
+S3method(plot, bayes2)
+S3method(plot, bayes)
+S3method(summary, bayes)
+S3method(plot, posterior)
+S3method(summary, posterior)
+S3method(simulate, posterior)

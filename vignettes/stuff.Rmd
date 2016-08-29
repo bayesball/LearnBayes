@@ -1,0 +1,8 @@
+---
+title: "Untitled"
+output: html_document
+---
+
+$$
+f(x) = \exp(-\frac{x^2}{2})
+$$
