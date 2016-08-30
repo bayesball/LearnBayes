@@ -1,6 +1,6 @@
 Package: LearnBayes
 Type: Package
-Title: Functions for Learning Bayesian Inference
+Title: Learning Bayesian Inference
 Version: 2.17
 Date: 2016-08-30
 Author: Jim Albert
@@ -8,13 +8,12 @@ Maintainer: Jim Albert <albert@bgsu.edu>
 Depends:
     coda
 LazyData: yes
-Description: LearnBayes contains a collection of functions helpful in learning
-    the basic tenets of Bayesian statistical inference. It contains functions
+Description: This package contains functions
     for summarizing basic one and two parameter posterior distributions and
     predictive distributions. It contains MCMC algorithms for summarizing posterior
     distributions defined by the user. It also contains functions for regression
     models, hierarchical models, Bayesian tests, and illustrations of Gibbs
     sampling.
 License: GPL (>= 2)
-Packaged: Wed May 28 19:11:23 2014; Jim Albert
+Packaged: Tues Aug 30 19:11:23 2016; Jim Albert
 RoxygenNote: 5.0.1
