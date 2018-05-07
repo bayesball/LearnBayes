@@ -8,7 +8,7 @@ Maintainer: Jim Albert <albert@bgsu.edu>
 Depends:
     coda
 LazyData: yes
-Description: This package contains functions
+Description: Contains functions
     for summarizing basic one and two parameter posterior distributions and
     predictive distributions. It contains MCMC algorithms for summarizing posterior
     distributions defined by the user. It also contains functions for regression
