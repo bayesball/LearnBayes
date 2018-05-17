@@ -1,6 +1,6 @@
-bayes.probit=function (y, X, m, prior = list(beta = 0, P = 0)) 
+bayes.probit <- function (y, X, m, prior = list(beta = 0, P = 0)) 
 {
-    rtruncated = function(n, lo, hi, pf, qf, ...) qf(pf(lo, ...) + 
+    rtruncated <- function(n, lo, hi, pf, qf, ...) qf(pf(lo, ...) + 
         runif(n) * (pf(hi, ...) - pf(lo, ...)), ...)
     if (sum(prior$P)==0) log.marg=NULL
     beta0 = prior$beta
